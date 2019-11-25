@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.134000000000002" tests="14" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-11-19T09:58:46" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Form case overview" timestamp="2019-11-19T09:58:46" tests="14" failures="0" time="9.134000000000002">
+    <testcase name="Form case overview The case overview shows the correct archived case IDs" time="1.252" classname="The case overview shows the correct archived case IDs">
+    </testcase>
+    <testcase name="Form case overview The case overview shows the correct open case ID" time="0.93" classname="The case overview shows the correct open case ID">
+    </testcase>
+    <testcase name="Form case overview The case overview shows the correct data table keys" time="1.069" classname="The case overview shows the correct data table keys">
+    </testcase>
+    <testcase name="Form case overview The case overview shows case started by the user" time="0.577" classname="The case overview shows case started by the user">
+    </testcase>
+    <testcase name="Form case overview The case overview shows case started by system" time="0.65" classname="The case overview shows case started by system">
+    </testcase>
+    <testcase name="Form case overview The case overview shows case started by system for the user" time="0.615" classname="The case overview shows case started by system for the user">
+    </testcase>
+    <testcase name="Form case overview The case overview shows case started by system for the user without first name" time="0.685" classname="The case overview shows case started by system for the user without first name">
+    </testcase>
+    <testcase name="Form case overview The case overview shows case started by system for the user without last name" time="0.485" classname="The case overview shows case started by system for the user without last name">
+    </testcase>
+    <testcase name="Form case overview The case overview shows case started by user for another user" time="0.533" classname="The case overview shows case started by user for another user">
+    </testcase>
+    <testcase name="Form case overview The case overview shows task executed by user" time="0.536" classname="The case overview shows task executed by user">
+    </testcase>
+    <testcase name="Form case overview The case overview shows task executed by system for user" time="0.445" classname="The case overview shows task executed by system for user">
+    </testcase>
+    <testcase name="Form case overview The case overview shows task executed by user for user" time="0.529" classname="The case overview shows task executed by user for user">
+    </testcase>
+    <testcase name="Form case overview No case is found with id" time="0.39" classname="No case is found with id">
+    </testcase>
+    <testcase name="Form case overview No id is specified" time="0.438" classname="No id is specified">
+    </testcase>
+  </testsuite>
+</testsuites>

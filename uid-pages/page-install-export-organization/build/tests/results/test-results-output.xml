@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.8" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-11-19T10:00:58" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="The install-export Organization" timestamp="2019-11-19T10:00:58" tests="5" failures="0" time="2.8">
+    <testcase name="The install-export Organization install-export organization is running in English" time="0.884" classname="install-export organization is running in English">
+    </testcase>
+    <testcase name="The install-export Organization The install button is disabled" time="0.564" classname="The install button is disabled">
+    </testcase>
+    <testcase name="The install-export Organization Current organization exported" time="0.364" classname="Current organization exported">
+    </testcase>
+    <testcase name="The install-export Organization install-export organization is running in French" time="0.443" classname="install-export organization is running in French">
+    </testcase>
+    <testcase name="The install-export Organization install-export organization is running in Spanish" time="0.545" classname="install-export organization is running in Spanish">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+ <head> 
+  <title>caseoverview</title> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="../theme/theme.css"> 
+  <link rel="stylesheet" href="widgets/pbFileViewer/assets/css/jquery.fancybox-1.3.4.css?hash=55e9656d83e7e30cfe8a3ee48bdec779cdd01c5b"> 
+  <link rel="stylesheet" href="widgets/pbFileViewer/assets/css/style.css?hash=e0dd5430c9a9ebc9159cf1dfe7f6c2a94e2bf034"> 
+  <link rel="stylesheet" href="widgets/timelineWidget/assets/css/angular-timeline.css?hash=8bc39cc0f8708c79ff1c23510690b6fd2581348d"> 
+  <link rel="stylesheet" href="widgets/timelineWidget/assets/css/style.css?hash=7f438e1794e999f67463dd08682041de18f36998"> 
+  <link rel="stylesheet" href="assets/css/style.css?hash=d173e4331b46565ad6451802b87689a2e6b6c06e"> 
+  <script src="js/vendor.min.js"></script> 
+  <script src="js/runtime.min.js"></script> 
+  <!-- assets attached to the page --> 
+  <script src="widgets/pbFileViewer/assets/js/jquery-2.2.1.min.js?hash=7cb05e3d551cd61439337b2cb22f49b1955f9711"></script> 
+  <script src="widgets/pbFileViewer/assets/js/jquery.fancybox-1.3.4.pack.js?hash=849022d04f5e657e4991f9a57bff941cbffc950d"></script> 
+  <script src="widgets/pbFileViewer/assets/js/box-viewer.directive.js?hash=93044bf71aed26e41567526dede8c324bfe60c97"></script> 
+  <script src="widgets/timelineWidget/assets/js/angular-timeline.js?hash=e56bc36431b2edb4caa8f15d624a779326cf3f32"></script> 
+  <script src="assets/js/moment.min.js?hash=5e8a4cf3c77c1bb13e966e702422e9d25b98ba14"></script> 
+  <script src="assets/js/filters.js?hash=176f1ca7e74e91ca6e02b7faacf41159e45a80a8"></script> 
+  <script>
+            angular.module('bonitasoft.ui').requires.push('angular-timeline');
+        </script> 
+  <!-- widgets directives minified --> 
+  <script src="js/widgets-9a31bd54ba33dcdda674c4dd512029440d2ef483.min.js"></script> 
+ </head> 
+ <body ng-app="bonitasoft.ui" pb-model="caseoverview"> 
+  <div class="container-fluid"> 
+   <div class="row"> 
+    <div pb-property-values="fc41a356-8998-452a-9ba6-d0461c025697"> 
+     <div class="col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses" ng-if="!properties.hidden"> 
+      <div class="row"> 
+       <div pb-property-values="e42cf1f2-ba06-44f3-85f3-2b5df2165019"> 
+        <div ng-if="!properties.hidden" class="component col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses"> 
+         <pb-title></pb-title> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div pb-property-values="ac4373f2-99a4-4dde-9ec7-7420b332bd7b"> 
+        <div ng-if="!properties.hidden" class="component col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses"> 
+         <pb-title></pb-title> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div pb-property-values="b3296a56-0223-423c-a701-e4a120a7f51a"> 
+        <div ng-if="!properties.hidden" class="component col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses"> 
+         <pb-text></pb-text> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div pb-property-values="91aa69b7-40d4-4efe-91f1-3b0cc5905dce"> 
+        <div class="col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses" ng-if="!properties.hidden"> 
+         <div class="row"> 
+          <div pb-property-values="897d91e3-4c78-4a0c-a250-d0ecdadf7d39"> 
+           <div ng-if="!properties.hidden" class="component col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses"> 
+            <pb-text></pb-text> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div pb-property-values="1c1c80a1-d0eb-4f30-bcfe-1098085a0040"> 
+        <div class="col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses" ng-if="!properties.hidden"> 
+         <div class="row"> 
+          <div pb-property-values="3b5b7ed7-ad8a-44fc-a3c6-b4cb063c5e2d"> 
+           <div ng-if="!properties.hidden" class="component col-xs-12  col-sm-12  col-md-6  col-lg-6" ng-class="properties.cssClasses"> 
+            <pb-select></pb-select> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="row"> 
+          <div pb-property-values="2161bfa5-d310-4c9a-ba3a-d7e4f79d2be0"> 
+           <div ng-if="!properties.hidden" class="component col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses"> 
+            <pb-table></pb-table> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div pb-property-values="6838fb22-a20b-43c0-ad88-60454ea26638"> 
+        <div ng-if="!properties.hidden" class="component col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses"> 
+         <pb-text></pb-text> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div pb-property-values="ed91c941-f419-4937-9563-03880a62aee4"> 
+        <div class="col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses" ng-if="!properties.hidden"> 
+         <div class="row"> 
+          <div pb-property-values="e118a5fc-c787-4a72-b47f-d400791668e5"> 
+           <div ng-if="!properties.hidden" class="component col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses"> 
+            <pb-text></pb-text> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div pb-property-values="a5016da6-35c1-406e-91cb-f9d8ad14ac6c"> 
+        <div class="col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses" ng-if="!properties.hidden"> 
+         <div class="row"> 
+          <div pb-property-values="6f5594fa-aa76-448a-bb1b-2bb878062e70"> 
+           <div class="col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses" ng-if="!properties.hidden" ng-repeat="$item in ($collection = properties.repeatedCollection) track by $index"> 
+            <div class="row"> 
+             <div pb-property-values="31e263cb-f875-4c6c-8dbf-f68cb804fc89"> 
+              <div ng-if="!properties.hidden" class="component col-xs-12" ng-class="properties.cssClasses"> 
+               <pb-text></pb-text> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="row"> 
+             <div pb-property-values="b79b8e33-a5b2-4129-a8fd-185e0219a156"> 
+              <div class="col-xs-12" ng-class="properties.cssClasses" ng-if="!properties.hidden"> 
+               <div class="row"> 
+                <div pb-property-values="637aaf2a-13ef-43c1-a2f8-a976dadb2645"> 
+                 <div ng-if="!properties.hidden" class="component col-xs-12" ng-class="properties.cssClasses"> 
+                  <pb-text></pb-text> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="row"> 
+             <div pb-property-values="f6c64337-bb36-4e71-8c14-a0278a25317d"> 
+              <div class="col-xs-12  col-md-12  col-lg-12" ng-class="properties.cssClasses" ng-if="!properties.hidden" ng-repeat="$item in ($collection = properties.repeatedCollection) track by $index"> 
+               <div class="row"> 
+                <div pb-property-values="27d0741f-a393-410f-9891-4441c7549583"> 
+                 <div class="col-xs-12" ng-class="properties.cssClasses" ng-if="!properties.hidden"> 
+                  <div class="row"> 
+                   <div pb-property-values="71dde46e-e434-4d16-822b-63b8e2d04004"> 
+                    <div ng-if="!properties.hidden" class="component col-xs-10" ng-class="properties.cssClasses"> 
+                     <pb-file-viewer></pb-file-viewer> 
+                    </div> 
+                   </div>
+                   <div pb-property-values="f93a54cb-d541-4ba4-9fe3-78cfe597b1de"> 
+                    <div ng-if="!properties.hidden" class="component col-xs-2" ng-class="properties.cssClasses"> 
+                     <pb-text></pb-text> 
+                    </div> 
+                   </div> 
+                  </div> 
+                  <div class="row"> 
+                   <div pb-property-values="633d991e-bda1-4de1-9a32-b98ad0ec778b"> 
+                    <div ng-if="!properties.hidden" class="component col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses"> 
+                     <pb-text></pb-text> 
+                    </div> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div pb-property-values="de35d1f4-89c8-4c75-84ca-40fb651481f7"> 
+        <div ng-if="!properties.hidden" class="component col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses"> 
+         <pb-text></pb-text> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div pb-property-values="a51d8918-bd2b-41a9-9526-c2b8377ec655"> 
+        <div ng-if="!properties.hidden" class="component col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses"> 
+         <timeline-widget></timeline-widget> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row"> 
+    <div pb-property-values="25414521-3c21-4d7e-83dd-c50103b09657"> 
+     <div ng-if="!properties.hidden" class="component col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses"> 
+      <pb-text></pb-text> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row"> 
+    <div pb-property-values="75f6d9be-ba04-4133-928a-506f61dc4a9e"> 
+     <div ng-if="!properties.hidden" class="component col-xs-12  col-sm-12  col-md-12  col-lg-12" ng-class="properties.cssClasses"> 
+      <pb-text></pb-text> 
+     </div> 
+    </div> 
+   </div> 
+   <script>angular.module('bonitasoft.ui.services').factory('localizationFactory', function() {
+  return {
+    get: function() {
+      return {"fr-FR":{"No case found with id:":"Cas non trouvé:","No documents available":"Aucun document n'a été attaché à ce cas.","Timeline":"Chronologie","Documents":"Documents","Business Data":"Données métier","No business data available":"Aucune donnée disponible","Case id":"Id du cas","Archived case id":"Id de l'archive du cas","Process":"Processus","No Events yet.":"Pas d'activité","Nothing noticeable happened yet... But it surely will come!":"Aucune tâche réalisée ni disponible pour le moment.","Case started":"Cas démarré","System":"","Started by":"Démarré par","Executed by":"","for":"","Case id not provided. Unable to retrieve the case.":"","Title":"Titre","Default label":"Libellé par défaut","Default name":"Nom par défaut","Select":"Sélection","Select an option":"Sélectionnez une option","green":"vert","red":"rouge","blue":"bleu","yes":"oui","no":"non","Id":"Id","Name":"Nom","Description":"Description","Link":"Lien","Submit":"Soumettre","This field is required":"Ce champ est obligatoire","This field length should be larger":"Ce champ doit contenir plus de caractères","This field length should be smaller":"Ce champ doit contenir moins de caractères","This value is too small":"La valeur de ce champ est trop petite","This value is too large":"La valeur de ce champ est trop grande","This is not a valid email":"L'email saisi n'est pas valide","Toggle the text area to HTML source code / Rich text area":"Basculer l'affichage du texte vers HTML / Rich Text","Heading ":"Titre ","Paragraph":"Paragraphe","Preformatted text":"Texte préformaté","Unordered List":"Liste","Ordered List":"Liste numérotée","Quote/unquote selection or paragraph":"Formater le paragraphe ou la sélection en citation","Undo":"Annuler","Redo":"Rétablir","Bold":"Gras","Italic":"Italique","Underline":"Souligné","Strikethrough":"Barré","Align text left":"Aligner le texte à gauche","Align text right":"Aligner le texte à droite","Justify text":"Justifier le texte","Center":"Centrer","Increase indent":"Augmenter l'indentation","Decrease indent":"Diminuer l'indentation","Clear formatting":"Effacer le formatage","Please enter an image URL to insert":"Saisissez l'URL de l'image à insérer","Insert image":"Insérer une image","Insert video":"Insérer une vidéo","Please enter a youtube URL to embed":"Saisissez une URL YouTube à embarquer","Insert / edit link":"Insérer/éditer un lien","Please enter a URL to insert":"Entrez une URL à insérer","Relink":"Changer le lien","Unlink":"Enlever le lien","Open in New Window":"Ouvrir dans une nouvelle fenêtre","Display words Count":"Afficher le nombre de mots","Display characters Count":"Afficher le nombre de caractères","The requested content cannot be loaded.<br />Please try again later.":"Le contenu demandé ne peut pas être téléchargé.<br/> Veuillez réessayer plus tard.","Date":"Date","MM/dd/yyyy":"dd/MM/yyyy","Today":"Aujourd'hui","Now":"Maintenant","Enter a date (mm/dd/yyyy)":"Saisissez une date (jj/mm/aaaa)","Date and time":"Date et heure","h:mm:ss a":"HH:mm:ss","Enter a time (h:mm:ss a)":"Saisissez une heure (hh:mm:ss)","$locale":{"DATETIME_FORMATS":{"AMPMS":["AM","PM"],"DAY":["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"],"FIRSTDAYOFWEEK":1,"MONTH":["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"SHORTDAY":["dim.","lun.","mar.","mer.","jeu.","ven.","sam."],"SHORTMONTH":["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct.","nov.","déc."],"fullDate":"EEEE d MMMM y","longDate":"d MMMM y","medium":"d MMM y HH:mm:ss","mediumDate":"d MMM y","mediumTime":"HH:mm:ss","short":"dd/MM/y HH:mm","shortDate":"dd/MM/y","shortTime":"HH:mm"}}},"es-ES":{"No case found with id:":"No se ha encontrado el caso:","No documents available":"Este caso no contiene ningún documento adjunto.","Timeline":"Cronología","Documents":"Documentos","Business Data":"Datos de negocio","No business data available":"No hay ningún dato de negocio disponible","Case id":"Id del caso","Archived case id":"Id del caso archivado","Process":"Proceso","No Events yet.":"Ningúna actividad.","Nothing noticeable happened yet... But it surely will come!":"Ninguna tarea ejecutada o disponible de momento.","Case started":"Caso iniciado","System":"","Started by":"iniciado por","Executed by":"","for":"","Case id not provided. Unable to retrieve the case.":"","Title":"Título","Default label":"Etiqueta por defecto","Default name":"Nombre por defecto","Select":"Seleccionar","Select an option":"Selecciona una opción","green":"verde","red":"rojo","blue":"azul","yes":"sí","no":"no","Id":"Id","Name":"Nombre","Description":"Descripción","Link":"Enlace","Submit":"Enviar","This field is required":"Este campo es requerido","This field length should be larger":"La longitud de este campo debería ser mayor","This field length should be smaller":"La longitud de este campo debería ser menor","This value is too small":"El valor de este campo es demasiado pequeño","This value is too large":"El valor de este campo es demasiado grande","This is not a valid email":"El email introducido no es válido","Toggle the text area to HTML source code / Rich text area":"Cambiar la zona de texto por código fuente HTML / Área de texto enriquecido","Heading ":"Título","Paragraph":"Parráfo","Preformatted text":"Texto preformateado","Unordered List":"Lista sin ordenar","Ordered List":"Lista ordenada","Quote/unquote selection or paragraph":"Citar / no citar selección o párrafo","Undo":"Deshacer","Redo":"Rehacer","Bold":"Negrita","Italic":"Itálico","Underline":"Subrayado","Strikethrough":"Tachado","Align text left":"Alinear texto a la izquierda","Align text right":"Alinear texto a la derecha","Justify text":"Justifica el texto","Center":"Centrar","Increase indent":"Aumentar sangría","Decrease indent":"Disminuir sangría","Clear formatting":"Borrar el formato","Please enter an image URL to insert":"Por favor ingrese una URL de imagen para insertar","Insert image":"Insertar imagen","Insert video":"Insertar video","Please enter a youtube URL to embed":"Por favor, introduzca una URL de youtube para incrustar","Insert / edit link":"Insertar / editar enlace","Please enter a URL to insert":"Por favor ingrese una URL para insertar","Relink":"Rehacer el enlace","Unlink":"Deshacer el enlace","Open in New Window":"Abrir en una nueva ventana","Display words Count":"Mostrar el número de palabras","Display characters Count":"Mostrar el número de carácteres","The requested content cannot be loaded.<br />Please try again later.":"El contenido solicitado no puede mostrarse.","Today":"Hoy","Now":"Ahora","Date":"Fecha","MM/dd/yyyy":"dd/MM/yyyy","Enter a date (mm/dd/yyyy)":"Introducir una fecha (dd/mm/aaaa)","Date and time":"Fecha y hora","h:mm:ss a":"H:mm:ss","Enter a time (h:mm:ss a)":"Introducir una hora (h:mm:ss)","$locale":{"DATETIME_FORMATS":{"AMPMS":["a. m.","p. m."],"DAY":["domingo","lunes","martes","miércoles","jueves","viernes","sábado"],"FIRSTDAYOFWEEK":0,"MONTH":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"],"SHORTDAY":["dom.","lun.","mar.","mié.","jue.","vie.","sáb."],"SHORTMONTH":["ene.","feb.","mar.","abr.","may.","jun.","jul.","ago.","sept.","oct.","nov.","dic."],"fullDate":"EEEE, d 'de' MMMM 'de' y","longDate":"d 'de' MMMM 'de' y","medium":"d 'de' MMM 'de' y H:mm:ss","mediumDate":"d 'de' MMM 'de' y","mediumTime":"H:mm:ss","short":"d/M/yy H:mm","shortDate":"d/M/yy","shortTime":"H:mm"}}},"ja-JP":{"No case found with id:":"","No documents available":"","Timeline":"","Documents":"","Business Data":"","No business data available":"","Case id":"","Archived case id":"","Process":"","No Events yet.":"","Nothing noticeable happened yet... But it surely will come!":"","Case started":"","System":"","Started by":"","Executed by":"","for":"","Case id not provided. Unable to retrieve the case.":"","Title":"タイトル","Default label":"デフォルト ラベル","Default name":"デフォルト名","Select":"選択","Select an option":"オプションを選択してください","green":"","red":"","blue":"","yes":"はい","no":"いいえ","Id":"ID","Name":"名前","Description":"説明","Link":"リンク","Submit":"送信","This field is required":"","This field length should be larger":"","This field length should be smaller":"","This value is too small":"","This value is too large":"","This is not a valid email":"","Toggle the text area to HTML source code / Rich text area":"","Heading ":" ","Paragraph":"","Preformatted text":"","Unordered List":"","Ordered List":"","Quote/unquote selection or paragraph":"","Undo":"元に戻す","Redo":"やり直し","Bold":"太字","Italic":"斜体","Underline":"下線","Strikethrough":"取り消し線","Align text left":"","Align text right":"","Justify text":"","Center":"中央揃え","Increase indent":"","Decrease indent":"","Clear formatting":"","Please enter an image URL to insert":"","Insert image":"画像を挿入","Insert video":"","Please enter a youtube URL to embed":"","Insert / edit link":"","Please enter a URL to insert":"","Relink":"","Unlink":"","Open in New Window":"","Display words Count":"","Display characters Count":"","The requested content cannot be loaded.<br />Please try again later.":"","Today":"今日","Now":"","Date":"","MM/dd/yyyy":"y/MM/dd","Enter a date (mm/dd/yyyy)":"日付（mm/dd/yyyy）を入力します","Date and time":"日付と時刻","h:mm:ss a":"H:mm:ss","Enter a time (h:mm:ss a)":"時刻を入力 (h:mm:ss a)","$locale":{"DATETIME_FORMATS":{"AMPMS":["午前","午後"],"DAY":["日曜日","月曜日","火曜日","水曜日","木曜日","金曜日","土曜日"],"FIRSTDAYOFWEEK":6,"MONTH":["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"SHORTDAY":["日","月","火","水","木","金","土"],"SHORTMONTH":["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"fullDate":"y年M月d日EEEE","longDate":"y年M月d日","medium":"y/MM/dd H:mm:ss","mediumDate":"y/MM/dd","mediumTime":"H:mm:ss","short":"y/MM/dd H:mm","shortDate":"y/MM/dd","shortTime":"H:mm"}}},"pt-BR":{"No case found with id:":"Case não achado com id:","No documents available":"Sem documentos disponíveis","Timeline":"linha de Tempo","Documents":"Documentos","Business Data":"Dados Negócios","No business data available":"Sem dados de negócio disponível","Case id":"Caso id","Archived case id":"Caso id arquivado","Process":"Processo","No Events yet.":"Ainda sem eventos.","Nothing noticeable happened yet... But it surely will come!":"Nada perceptível aconteceu ainda...Más certamente acontecerá!","Case started":"Caso iniciado","System":"","Started by":"Iniciado por","Executed by":"","for":"","Case id not provided. Unable to retrieve the case.":"","Title":"Título","Default label":"Etiqueta padrão","Default name":"Nome padrão","Select":"Selecionar","Select an option":"Selecionar uma opção","green":"verde","red":"vermelho","blue":"azul","yes":"sim","no":"não","Id":"Id","Name":"Nome","Description":"Descrição","Link":"Link","Submit":"Submeter","This field is required":"Este campo é requerido","This field length should be larger":"Este comprimento de campo deve ser maior","This field length should be smaller":"Este comprimento do campo deve ser menor","This value is too small":"Este valor é muito pequeno","This value is too large":"Este valor é muito grande","This is not a valid email":"Não é um email válido","Toggle the text area to HTML source code / Rich text area":"Alternar a área de texto para o código-fonte HTML / área de rich text","Heading ":"Título ","Paragraph":"Paragrafo","Preformatted text":"Texto preformatado","Unordered List":"Lista não ordenada","Ordered List":"Lista ordenada","Quote/unquote selection or paragraph":"Marcar / Desmarcar seleção ou parágrafo","Undo":"Desfazer","Redo":"Pronto","Bold":"Negrito","Italic":"Italico","Underline":"Sublinhado","Strikethrough":"Tachado","Align text left":"Alinhar texto a esquerda","Align text right":"Alinhar texto a direita","Justify text":"Texto Justificado","Center":"Centralizado","Increase indent":"Aumentar recuo","Decrease indent":"Diminuir recuo","Clear formatting":"Limpar formatação","Please enter an image URL to insert":"Por favor entre com uma URL para inserir","Insert image":"Inserir imagem","Insert video":"Insereir video","Please enter a youtube URL to embed":"Por favor entre com uma URL para inserir","Insert / edit link":"Inserir / editar link","Please enter a URL to insert":"Por favor entre com uma URL para inserir","Relink":"Relink","Unlink":"Unlink","Open in New Window":"Abrir em Nova Janela","Display words Count":"Exibir contagem de palavras","Display characters Count":"Exibir contagem de caracteres","The requested content cannot be loaded.<br />Please try again later.":"O conteúdo solicitado não pode ser carregado.<br />Por favor tente mais tarde.","Today":"Hoje","Now":"Agora","Date":"Data","MM/dd/yyyy":"MM/dd/yyyy","Enter a date (mm/dd/yyyy)":"Entre com uma data (mm/dd/yyyy)","Date and time":"Data e hora","h:mm:ss a":"h:mm:ss a","Enter a time (h:mm:ss a)":"Entre com uma hora (h:mm:ss a)","$locale":{"DATETIME_FORMATS":{"AMPMS":["AM","PM"],"DAY":["domingo","segunda-feira","terça-feira","quarta-feira","quinta-feira","sexta-feira","sábado"],"FIRSTDAYOFWEEK":6,"MONTH":["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"],"SHORTDAY":["dom","seg","ter","qua","qui","sex","sáb"],"SHORTMONTH":["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"],"fullDate":"EEEE, d 'de' MMMM 'de' y","longDate":"d 'de' MMMM 'de' y","medium":"d 'de' MMM 'de' y HH:mm:ss","mediumDate":"d 'de' MMM 'de' y","mediumTime":"HH:mm:ss","short":"dd/MM/yy HH:mm","shortDate":"dd/MM/yy","shortTime":"HH:mm"}}}};
+    }
+  };
+});
+</script> 
+   <script>angular.module('bonitasoft.ui.services').factory('variableModelFactory', function() {
+  var resources = {};
+  resources['caseoverview'] =  {"archivedCase":{"type":"url","value":["../API/bpm/archivedCase?c=1&d=started_by&d=startedBySubstitute&d=processDefinitionId&f=sourceObjectId%3D{{caseId}}&p=0"],"displayValue":"../API/bpm/archivedCase?c=1&d=started_by&d=startedBySubstitute&d=processDefinitionId&f=sourceObjectId%3D{{caseId}}&p=0","exposed":false},"caseOverview":{"type":"expression","value":["function values(object){","    if(!object){","        return [];","    }","    return  Object.keys(object).map(function(key){","        return $data.context[key];","    });    ","}","","function groupBy(xs, key) {","  var result = xs.reduce(function(rv, x) {","    (rv[x[key]] = rv[x[key]] || []).push(x);","    return rv;","  }, {});","  return result ? Object.keys(result).map(function(key) { return { \"name\" : key, \"description\" : result[key] && result[key].length > 0 ? result[key][0].description : null  , \"documents\" : Array.isArray(result[key]) ?  result[key] : [ result[key]] }}) : [];","}","","","function maxValue(xs, key) {","  return xs.reduce(function(prev, current) {","       return (parseInt(prev[key],10) > parseInt(current[key],10)) ? prev : current;","  });","}","","var businessDataRefs =  values($data.context).filter(function(ref){","        return ref && ref.type;","    }).map(function(businessDataRef){","        return {","          \"name\" : businessDataRef.name + \" (\"+ businessDataRef.type +\")\",","          \"link\" : businessDataRef.link","        };","    });","","var documentRefs = groupBy($data.openedContext ? $data.openedCaseDocuments : $data.archivedDocuments,\"name\");","for(var index = 0; index < documentRefs.length; index++){","          var doc = documentRefs[index];","          var allVersionsById = groupBy(doc.documents, $data.openedContext ? \"id\" : \"sourceObjectId\");","          for(var j = 0; j < allVersionsById.length; j++){","                allVersionsById[j] = maxValue(allVersionsById[j].documents,\"version\");","          }","          doc.documents  = Object.values(allVersionsById);","          if(doc.name + \"_ref\" in $data.context){","              var contextDocs = $data.context[doc.name + \"_ref\"];","              //Do not display removed docs form a multiple document","              if(contextDocs && Array.isArray(contextDocs)){","                  var docIdInContext = contextDocs.map(function(d) { return d.id.toString(); });","                  doc.documents = doc.documents.filter(function(d) { return docIdInContext.includes(d.sourceObjectId ? d.sourceObjectId : d.id); });","              }else if(!contextDocs){","                  doc.documents = [];","              }","          }"," }","","return {","    \"found\" : !!$data.case,","    \"id\" : $data.case.id,","    \"sourceObjectId\" : $data.case.rootCaseId ?  $data.case.rootCaseId  : $data.case.id ,","    \"processName\" : $data.case.processDefinitionId.displayName + \" (\"+ $data.case.processDefinitionId.version+\")\",","    \"businessDataRefs\" : businessDataRefs,","    \"selectedBusinessDataRef\" : businessDataRefs[0],","    \"documentRefs\" : documentRefs ","};"],"displayValue":"function values(object){\n    if(!object){\n        return [];\n    }\n    return  Object.keys(object).map(function(key){\n        return $data.context[key];\n    });    \n}\n\nfunction groupBy(xs, key) {\n  var result = xs.reduce(function(rv, x) {\n    (rv[x[key]] = rv[x[key]] || []).push(x);\n    return rv;\n  }, {});\n  return result ? Object.keys(result).map(function(key) { return { \"name\" : key, \"description\" : result[key] && result[key].length > 0 ? result[key][0].description : null  , \"documents\" : Array.isArray(result[key]) ?  result[key] : [ result[key]] }}) : [];\n}\n\n\nfunction maxValue(xs, key) {\n  return xs.reduce(function(prev, current) {\n       return (parseInt(prev[key],10) > parseInt(current[key],10)) ? prev : current;\n  });\n}\n\nvar businessDataRefs =  values($data.context).filter(function(ref){\n        return ref && ref.type;\n    }).map(function(businessDataRef){\n        return {\n          \"name\" : businessDataRef.name + \" (\"+ businessDataRef.type +\")\",\n          \"link\" : businessDataRef.link\n        };\n    });\n\nvar documentRefs = groupBy($data.openedContext ? $data.openedCaseDocuments : $data.archivedDocuments,\"name\");\nfor(var index = 0; index < documentRefs.length; index++){\n          var doc = documentRefs[index];\n          var allVersionsById = groupBy(doc.documents, $data.openedContext ? \"id\" : \"sourceObjectId\");\n          for(var j = 0; j < allVersionsById.length; j++){\n                allVersionsById[j] = maxValue(allVersionsById[j].documents,\"version\");\n          }\n          doc.documents  = Object.values(allVersionsById);\n          if(doc.name + \"_ref\" in $data.context){\n              var contextDocs = $data.context[doc.name + \"_ref\"];\n              //Do not display removed docs form a multiple document\n              if(contextDocs && Array.isArray(contextDocs)){\n                  var docIdInContext = contextDocs.map(function(d) { return d.id.toString(); });\n                  doc.documents = doc.documents.filter(function(d) { return docIdInContext.includes(d.sourceObjectId ? d.sourceObjectId : d.id); });\n              }else if(!contextDocs){\n                  doc.documents = [];\n              }\n          }\n }\n\nreturn {\n    \"found\" : !!$data.case,\n    \"id\" : $data.case.id,\n    \"sourceObjectId\" : $data.case.rootCaseId ?  $data.case.rootCaseId  : $data.case.id ,\n    \"processName\" : $data.case.processDefinitionId.displayName + \" (\"+ $data.case.processDefinitionId.version+\")\",\n    \"businessDataRefs\" : businessDataRefs,\n    \"selectedBusinessDataRef\" : businessDataRefs[0],\n    \"documentRefs\" : documentRefs \n};","exposed":false},"timelineOrigin":{"type":"expression","value":["return {"," \"title\": \"Case started\","," \"startTime\": $data.case.start,"," \"description\":$data.case.processDefinitionId.displayDescription,"," \"initiator\": uiTranslate(\"Started by\") + \" \" + $data.getUserAndSubstituteDisplayName($data.case.started_by, $data.case.startedBySubstitute)","};"],"displayValue":"return {\n \"title\": \"Case started\",\n \"startTime\": $data.case.start,\n \"description\":$data.case.processDefinitionId.displayDescription,\n \"initiator\": uiTranslate(\"Started by\") + \" \" + $data.getUserAndSubstituteDisplayName($data.case.started_by, $data.case.startedBySubstitute)\n};","exposed":false},"archivedTasks":{"type":"url","value":["../API/bpm/archivedHumanTask?p=0&c=999&d=executedBy&d=executedBySubstitute&f=caseId%3D{{caseOverview.sourceObjectId}}&o=reached_state_date DESC"],"displayValue":"../API/bpm/archivedHumanTask?p=0&c=999&d=executedBy&d=executedBySubstitute&f=caseId%3D{{caseOverview.sourceObjectId}}&o=reached_state_date DESC","exposed":false},"archivedContext":{"type":"url","value":["../API/bpm/archivedCase/{{case.id}}/context"],"displayValue":"../API/bpm/archivedCase/{{case.id}}/context","exposed":false},"openedCaseDocuments":{"type":"url","value":["../API/bpm/caseDocument?f=caseId={{caseId}}"],"displayValue":"../API/bpm/caseDocument?f=caseId={{caseId}}","exposed":false},"archivedDocuments":{"type":"url","value":["../API/bpm/archivedCaseDocument?f=caseId={{caseId}}"],"displayValue":"../API/bpm/archivedCaseDocument?f=caseId={{caseId}}","exposed":false},"selectedBusinessData":{"type":"url","value":["../{{caseOverview.selectedBusinessDataRef.link}}"],"displayValue":"../{{caseOverview.selectedBusinessDataRef.link}}","exposed":false},"openedContext":{"type":"url","value":["../API/bpm/case/{{caseId}}/context"],"displayValue":"../API/bpm/case/{{caseId}}/context","exposed":false},"timelineEvents":{"type":"expression","value":["function executedBy(task){","    if (\"completed\" === task.state) {","        var executedByString = uiTranslate(\"Executed by\") + \" \";","        executedByString += $data.getUserAndSubstituteDisplayName(task.executedBy, task.executedBySubstitute);","        return executedByString;","    } else {","        return null;","    }","}","","function assignedTo(task){","    var userInfo = task.assigned_id.firstname || task.assigned_id.lastName ? task.assigned_id.firstname + \" \" + task.assigned_id.lastname : task.assigned_id.userName;","    return task.assigned_id ? \"Assigned to \" + userInfo : null;","}","","function iconFor(task){","    switch(task.state) {","        case \"completed\": return \"check\";","        case \"failed\": return \"remove-circle\";","        case \"cancelled\": return \"ban-circle\";","        case \"aborted\": return \"ban-circle\";","        default: return \"unchecked\";","    }","}","","function styleFor(task){","    switch(task.state) {","        case \"completed\": return \"success\";","        case \"failed\": return \"danger\";","        case \"cancelled\": return \"warning\";","        case \"aborted\": return \"warning\";","        default: return \"primary\";","    }","}","","function toEvent(task){","    return {","      \"title\" : task.displayName,","      \"lastUpdateDate\" : task.last_update_date,","      \"executedBy\" :  executedBy(task),","      \"assignedTo\" : assignedTo(task),","      \"description\" : task.displayDescription,","      \"icon\" : iconFor(task),","      \"style\" : styleFor(task)","    };","}","","var archived = $data.archivedTasks.map(toEvent);","var opened = $data.openedTasks.map(toEvent);","","return [].concat(opened,archived);"],"displayValue":"function executedBy(task){\n    if (\"completed\" === task.state) {\n        var executedByString = uiTranslate(\"Executed by\") + \" \";\n        executedByString += $data.getUserAndSubstituteDisplayName(task.executedBy, task.executedBySubstitute);\n        return executedByString;\n    } else {\n        return null;\n    }\n}\n\nfunction assignedTo(task){\n    var userInfo = task.assigned_id.firstname || task.assigned_id.lastName ? task.assigned_id.firstname + \" \" + task.assigned_id.lastname : task.assigned_id.userName;\n    return task.assigned_id ? \"Assigned to \" + userInfo : null;\n}\n\nfunction iconFor(task){\n    switch(task.state) {\n        case \"completed\": return \"check\";\n        case \"failed\": return \"remove-circle\";\n        case \"cancelled\": return \"ban-circle\";\n        case \"aborted\": return \"ban-circle\";\n        default: return \"unchecked\";\n    }\n}\n\nfunction styleFor(task){\n    switch(task.state) {\n        case \"completed\": return \"success\";\n        case \"failed\": return \"danger\";\n        case \"cancelled\": return \"warning\";\n        case \"aborted\": return \"warning\";\n        default: return \"primary\";\n    }\n}\n\nfunction toEvent(task){\n    return {\n      \"title\" : task.displayName,\n      \"lastUpdateDate\" : task.last_update_date,\n      \"executedBy\" :  executedBy(task),\n      \"assignedTo\" : assignedTo(task),\n      \"description\" : task.displayDescription,\n      \"icon\" : iconFor(task),\n      \"style\" : styleFor(task)\n    };\n}\n\nvar archived = $data.archivedTasks.map(toEvent);\nvar opened = $data.openedTasks.map(toEvent);\n\nreturn [].concat(opened,archived);","exposed":false},"openedTasks":{"type":"url","value":["../API/bpm/task?p=0&c=999&d=executedBy&d=executedBySubstitute&d=assigned_id&f=caseId%3D{{caseOverview.sourceObjectId}}&f=type%3DUSER_TASK&o=last_update_date DESC"],"displayValue":"../API/bpm/task?p=0&c=999&d=executedBy&d=executedBySubstitute&d=assigned_id&f=caseId%3D{{caseOverview.sourceObjectId}}&f=type%3DUSER_TASK&o=last_update_date DESC","exposed":false},"caseId":{"type":"urlparameter","value":["id"],"displayValue":"id","exposed":false},"context":{"type":"expression","value":["return (!$data.openCase && $data.archivedContext) ? $data.archivedContext : $data.openedContext;"],"displayValue":"return (!$data.openCase && $data.archivedContext) ? $data.archivedContext : $data.openedContext;","exposed":false},"openCase":{"type":"url","value":["../API/bpm/case/{{caseId}}?d=started_by&d=startedBySubstitute&d=processDefinitionId"],"displayValue":"../API/bpm/case/{{caseId}}?d=started_by&d=startedBySubstitute&d=processDefinitionId","exposed":false},"businessDataKeys":{"type":"expression","value":["/* Identifies if the passed key is a string version of an object id,"," * as the Rest API duplicates the object ids with \"_string\" version"," */","function isOjectIdAsString(header, headers) {","    return header.endsWith(\"_string\") && headers.includes(header.replace(\"_string\", \"\"));","}","","var businessData = $data.selectedBusinessData.length ? $data.selectedBusinessData[0] :  $data.selectedBusinessData;","","return Object.keys(businessData).filter(function(header, index, headers){","    return  !isOjectIdAsString(header, headers);","}).filter(function(header){","    return  header !== \"persistenceId\"","            && header.indexOf(\"persistenceVersion\") === -1 ","            && header !== \"links\" ","});"],"displayValue":"/* Identifies if the passed key is a string version of an object id,\n * as the Rest API duplicates the object ids with \"_string\" version\n */\nfunction isOjectIdAsString(header, headers) {\n    return header.endsWith(\"_string\") && headers.includes(header.replace(\"_string\", \"\"));\n}\n\nvar businessData = $data.selectedBusinessData.length ? $data.selectedBusinessData[0] :  $data.selectedBusinessData;\n\nreturn Object.keys(businessData).filter(function(header, index, headers){\n    return  !isOjectIdAsString(header, headers);\n}).filter(function(header){\n    return  header !== \"persistenceId\"\n            && header.indexOf(\"persistenceVersion\") === -1 \n            && header !== \"links\" \n});","exposed":false},"case":{"type":"expression","value":["return  (!$data.openCase && $data.archivedCase.length > 0) ? $data.archivedCase[0] : $data.openCase;"],"displayValue":"return  (!$data.openCase && $data.archivedCase.length > 0) ? $data.archivedCase[0] : $data.openCase;","exposed":false},"getUserAndSubstituteDisplayName":{"type":"expression","value":["function isSystem(user) {","    return user <= 0;","}","","function hasSubstitute(user, substitute) {","    return user.id && user.id !== substitute.id;","}","","function getDisplayName(user) {","    if (isSystem(user)) {","        return uiTranslate(\"System\");","    }","    return user.firstname && user.lastname ? user.firstname + \" \" + user.lastname : user.userName;","}","","return function(user, substitute) {","    if (hasSubstitute(user, substitute)) {","        return getDisplayName(substitute) + \" \" + uiTranslate(\"for\") + \" \" + getDisplayName(user);","    }","    return getDisplayName(user);","}"],"displayValue":"function isSystem(user) {\n    return user <= 0;\n}\n\nfunction hasSubstitute(user, substitute) {\n    return user.id && user.id !== substitute.id;\n}\n\nfunction getDisplayName(user) {\n    if (isSystem(user)) {\n        return uiTranslate(\"System\");\n    }\n    return user.firstname && user.lastname ? user.firstname + \" \" + user.lastname : user.userName;\n}\n\nreturn function(user, substitute) {\n    if (hasSubstitute(user, substitute)) {\n        return getDisplayName(substitute) + \" \" + uiTranslate(\"for\") + \" \" + getDisplayName(user);\n    }\n    return getDisplayName(user);\n}","exposed":false}};
+  return {
+    get: function(uuid) {
+      return resources[uuid];
+    }
+  };
+});
+</script> 
+   <script>angular.module('bonitasoft.ui.services').factory('modelPropertiesFactory', function() {
+  var resources = {};
+  return {
+    get: function(uuid) {
+      return resources[uuid];
+    }
+  };
+});
+</script> 
+   <script>angular.module('bonitasoft.ui.services').factory('propertyValuesFactory', function() {
+  var resources = {};
+  resources['27d0741f-a393-410f-9891-4441c7549583'] =  {"cssClasses":{"type":"constant","value":"panel panel-default margin-bottom-sm"},"hidden":{"type":"constant","value":false},"repeatedCollection":{"type":"variable","value":""}};
+  resources['de35d1f4-89c8-4c75-84ca-40fb651481f7'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"constant","value":false},"text":{"type":"interpolation","value":"<h2><span class=\"glyphicon glyphicon-object-align-right\" aria-hidden=\"true\"></span>&nbsp; {{\"Timeline\" | translate }}</h2>"},"alignment":{"type":"constant","value":"left"},"allowHTML":{"type":"constant","value":true},"labelHidden":{"type":"constant","value":true},"label":{"type":"interpolation","value":""},"labelPosition":{"type":"constant","value":"top"},"labelWidth":{"type":"constant","value":4}};
+  resources['91aa69b7-40d4-4efe-91f1-3b0cc5905dce'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"expression","value":"caseOverview.businessDataRefs.length  > 0"},"repeatedCollection":{"type":"variable","value":""}};
+  resources['f93a54cb-d541-4ba4-9fe3-78cfe597b1de'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"constant","value":false},"labelHidden":{"type":"constant","value":true},"label":{"type":"interpolation","value":"Default label"},"labelPosition":{"type":"constant","value":"top"},"labelWidth":{"type":"constant","value":4},"allowHTML":{"type":"constant","value":true},"text":{"type":"interpolation","value":"<small><em>v{{$item.version}}</em></small>"},"alignment":{"type":"constant","value":"right"}};
+  resources['6838fb22-a20b-43c0-ad88-60454ea26638'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"constant","value":false},"text":{"type":"interpolation","value":"<h2><span class=\"glyphicon glyphicon-paperclip\" aria-hidden=\"true\"></span>&nbsp; {{\"Documents\" | translate}}</h2>"},"alignment":{"type":"constant","value":"left"},"allowHTML":{"type":"constant","value":true},"labelHidden":{"type":"constant","value":true},"label":{"type":"interpolation","value":""},"labelPosition":{"type":"constant","value":"top"},"labelWidth":{"type":"constant","value":4}};
+  resources['633d991e-bda1-4de1-9a32-b98ad0ec778b'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"constant","value":false},"labelHidden":{"type":"constant","value":true},"label":{"type":"interpolation","value":"Default label"},"labelPosition":{"type":"constant","value":"top"},"labelWidth":{"type":"constant","value":4},"allowHTML":{"type":"constant","value":true},"text":{"type":"interpolation","value":"<small><span class=\"glyphicon glyphicon-calendar\"></span> Uploaded {{ $item.creationDate | fromNow }}</small>"},"alignment":{"type":"constant","value":"left"}};
+  resources['ac4373f2-99a4-4dde-9ec7-7420b332bd7b'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"expression","value":"!archivedCase.length"},"text":{"type":"interpolation","value":"{{\"Archived case id\" | translate}} : {{caseOverview.id}}"},"level":{"type":"constant","value":"Level 3"},"alignment":{"type":"constant","value":"left"}};
+  resources['2161bfa5-d310-4c9a-ba3a-d7e4f79d2be0'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"expression","value":"!businessDataKeys"},"headers":{"type":"expression","value":"businessDataKeys"},"content":{"type":"expression","value":"selectedBusinessData.length ? selectedBusinessData : [selectedBusinessData]"},"columnsKey":{"type":"expression","value":"businessDataKeys"},"selectedRow":{"type":"variable","value":""},"allowHTML":{"type":"constant","value":false},"striped":{"type":"constant","value":true},"condensed":{"type":"constant","value":false},"bordered":{"type":"constant","value":false}};
+  resources['6f5594fa-aa76-448a-bb1b-2bb878062e70'] =  {"cssClasses":{"type":"constant","value":"margin-top-md"},"hidden":{"type":"expression","value":"caseOverview.documentRefs.length === 0"},"repeatedCollection":{"type":"variable","value":"caseOverview.documentRefs"}};
+  resources['25414521-3c21-4d7e-83dd-c50103b09657'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"expression","value":"caseOverview.found || !caseId"},"text":{"type":"interpolation","value":"<div class=\"alert alert-info\" translate><i class=\"glyphicon glyphicon-info-sign\" aria-hidden=\"true\"></i> {{\"No case found with id:\" | translate }} <b>{{caseId}}</b></div>"},"alignment":{"type":"constant","value":"left"},"allowHTML":{"type":"constant","value":true},"labelHidden":{"type":"constant","value":true},"label":{"type":"interpolation","value":""},"labelPosition":{"type":"constant","value":"top"},"labelWidth":{"type":"constant","value":4}};
+  resources['e118a5fc-c787-4a72-b47f-d400791668e5'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"constant","value":false},"text":{"type":"interpolation","value":"<div class=\"alert alert-info\" translate><i class=\"glyphicon glyphicon-info-sign\" aria-hidden=\"true\"></i>{{\"No documents available\" | translate}}</div>"},"alignment":{"type":"constant","value":"left"},"allowHTML":{"type":"constant","value":true},"labelHidden":{"type":"constant","value":true},"label":{"type":"interpolation","value":""},"labelPosition":{"type":"constant","value":"top"},"labelWidth":{"type":"constant","value":4}};
+  resources['75f6d9be-ba04-4133-928a-506f61dc4a9e'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"expression","value":"caseOverview.found || caseId"},"labelHidden":{"type":"constant","value":true},"label":{"type":"interpolation","value":""},"labelPosition":{"type":"constant","value":"top"},"labelWidth":{"type":"constant","value":4},"allowHTML":{"type":"constant","value":true},"text":{"type":"interpolation","value":"<div class=\"alert alert-info\" translate><i class=\"glyphicon glyphicon-info-sign\" aria-hidden=\"true\"></i> {{\"Case id not provided. Unable to retrieve the case.\" | translate }}</div>"},"alignment":{"type":"constant","value":"left"}};
+  resources['e42cf1f2-ba06-44f3-85f3-2b5df2165019'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"constant","value":false},"text":{"type":"interpolation","value":"{{\"Case id\" | translate}} : {{caseOverview.sourceObjectId || caseOverview.id}} - {{\"Process\" | translate}} : {{caseOverview.processName}}"},"level":{"type":"constant","value":"Level 1"},"alignment":{"type":"constant","value":"left"}};
+  resources['897d91e3-4c78-4a0c-a250-d0ecdadf7d39'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"constant","value":false},"text":{"type":"interpolation","value":"<div class=\"alert alert-info\"><i class=\"glyphicon glyphicon-info-sign\" aria-hidden=\"true\"></i> {{\"No business data available\" | translate }}</div>"},"alignment":{"type":"constant","value":"left"},"allowHTML":{"type":"constant","value":true},"labelHidden":{"type":"constant","value":true},"label":{"type":"interpolation","value":""},"labelPosition":{"type":"constant","value":"top"},"labelWidth":{"type":"constant","value":4}};
+  resources['ed91c941-f419-4937-9563-03880a62aee4'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"expression","value":"caseOverview.documentRefs"},"repeatedCollection":{"type":"variable","value":""}};
+  resources['b3296a56-0223-423c-a701-e4a120a7f51a'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"constant","value":false},"text":{"type":"interpolation","value":"<h2><span class=\"glyphicon glyphicon-folder-open\" aria-hidden=\"true\"></span>&nbsp; {{\"Business Data\" | translate}}</h2>"},"alignment":{"type":"constant","value":"left"},"allowHTML":{"type":"constant","value":true},"labelHidden":{"type":"constant","value":true},"label":{"type":"interpolation","value":""},"labelPosition":{"type":"constant","value":"top"},"labelWidth":{"type":"constant","value":4}};
+  resources['71dde46e-e434-4d16-822b-63b8e2d04004'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"constant","value":false},"type":{"type":"constant","value":"Process document"},"url":{"type":"constant","value":""},"document":{"type":"variable","value":"$item"},"showPreview":{"type":"constant","value":false}};
+  resources['a5016da6-35c1-406e-91cb-f9d8ad14ac6c'] =  {"cssClasses":{"type":"constant","value":"padding-x-xl"},"hidden":{"type":"constant","value":false},"repeatedCollection":{"type":"variable","value":""}};
+  resources['a51d8918-bd2b-41a9-9526-c2b8377ec655'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"constant","value":false},"events":{"type":"expression","value":"timelineEvents"},"noEventsTitle":{"type":"expression","value":"\"No Events yet.\" | translate"},"noEventsContent":{"type":"expression","value":"\"Nothing noticeable happened yet... But it surely will come!\" | translate"},"eventsTitleExpression":{"type":"constant","value":"event.title"},"eventsContentExpression":{"type":"constant","value":"event.description"},"eventsTimeExpression":{"type":"constant","value":"event.lastUpdateDate"},"eventsTimeAttributeFormat":{"type":"constant","value":"medium"},"eventsAuthorExpression":{"type":"constant","value":"event.executedBy || event.assignedTo"},"origin":{"type":"expression","value":"timelineOrigin"},"originTitleExpression":{"type":"constant","value":"origin.title | translate"},"originContentExpression":{"type":"constant","value":"origin.description"},"originTimeExpression":{"type":"constant","value":"origin.startTime"},"originAuthorExpression":{"type":"constant","value":"origin.initiator"},"eventsIconStyleExpression":{"type":"expression","value":"\"event.style\""},"eventsIconExpression":{"type":"constant","value":"event.icon"}};
+  resources['31e263cb-f875-4c6c-8dbf-f68cb804fc89'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"constant","value":false},"labelHidden":{"type":"constant","value":true},"label":{"type":"interpolation","value":"Default label"},"labelPosition":{"type":"constant","value":"top"},"labelWidth":{"type":"constant","value":4},"allowHTML":{"type":"constant","value":true},"text":{"type":"interpolation","value":"<strong class=\"text-capitalize\">{{$item.name}}</strong>\n{{$item.description  ? \"<br/><em>\" + $item.description + \"</em>\"  : \"\"}}"},"alignment":{"type":"constant","value":"left"}};
+  resources['fc41a356-8998-452a-9ba6-d0461c025697'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"expression","value":"!caseOverview.found"},"repeatedCollection":{"type":"variable","value":""}};
+  resources['b79b8e33-a5b2-4129-a8fd-185e0219a156'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"expression","value":"$item.documents.length > 0"},"repeatedCollection":{"type":"variable","value":""}};
+  resources['3b5b7ed7-ad8a-44fc-a3c6-b4cb063c5e2d'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"constant","value":false},"disabled":{"type":"constant","value":false},"required":{"type":"constant","value":false},"labelHidden":{"type":"constant","value":true},"label":{"type":"interpolation","value":"List of"},"labelPosition":{"type":"constant","value":"left"},"labelWidth":{"type":"constant","value":1},"placeholder":{"type":"interpolation","value":""},"availableValues":{"type":"expression","value":"caseOverview.businessDataRefs"},"displayedKey":{"type":"constant","value":"name"},"returnedKey":{"type":"constant","value":""},"value":{"type":"variable","value":"caseOverview.selectedBusinessDataRef"}};
+  resources['637aaf2a-13ef-43c1-a2f8-a976dadb2645'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"constant","value":false},"labelHidden":{"type":"constant","value":true},"label":{"type":"interpolation","value":"Default label"},"labelPosition":{"type":"constant","value":"top"},"labelWidth":{"type":"constant","value":4},"allowHTML":{"type":"constant","value":true},"text":{"type":"interpolation","value":"<em>No file attached to this document</em>"},"alignment":{"type":"constant","value":"left"}};
+  resources['1c1c80a1-d0eb-4f30-bcfe-1098085a0040'] =  {"cssClasses":{"type":"constant","value":""},"hidden":{"type":"expression","value":"caseOverview.businessDataRefs.length === 0"},"repeatedCollection":{"type":"variable","value":""}};
+  resources['f6c64337-bb36-4e71-8c14-a0278a25317d'] =  {"cssClasses":{"type":"constant","value":"col-md-6 col-lg-3 padding-x-lg"},"hidden":{"type":"expression","value":"$item.documents.length === 0"},"repeatedCollection":{"type":"variable","value":"$item.documents"}};
+  return {
+    get: function(uuid) {
+      return resources[uuid];
+    }
+  };
+});
+</script> 
+  </div>   
+ </body>
+</html>
