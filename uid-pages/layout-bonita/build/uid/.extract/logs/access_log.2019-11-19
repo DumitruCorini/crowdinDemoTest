@@ -1,2 +1,0 @@
-127.0.0.1 - - [19/Nov/2019:10:56:09 +0100] GET /bonita/rest/pages HTTP/1.1 200 193 http-bio-3001-exec-1 339
-127.0.0.1 - - [19/Nov/2019:10:56:10 +0100] GET /bonita/export/page/LayoutBonitaV4 HTTP/1.1 200 499957 http-bio-3001-exec-2 954

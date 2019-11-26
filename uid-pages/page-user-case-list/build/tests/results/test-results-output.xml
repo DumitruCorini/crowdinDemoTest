@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="2.04" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2019-11-19T10:02:24" tests="0" failures="0" time="0">
-  </testsuite>
-  <testsuite name="The user case list in small screen resolution" timestamp="2019-11-19T10:02:24" tests="1" failures="0" time="2.04">
-    <testcase name="The user case list in small screen resolution The user case list is able to switch between tabs" time="2.04" classname="The user case list is able to switch between tabs">
-    </testcase>
-  </testsuite>
-</testsuites>
